@@ -1,0 +1,27 @@
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\AsteroidKiller.exe.manifest
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\AsteroidKiller.application
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\AsteroidKiller.exe
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\AsteroidKiller.pdb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Debug\AsteroidKiller.exe.manifest
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Debug\AsteroidKiller.application
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Debug\AsteroidKiller.exe
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Debug\AsteroidKiller.pdb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\asteroid.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\GameOver1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\Ship.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\explosion.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\Bullet.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\bg2.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\bg3.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\bg1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\player_explosion.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\powerups.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\irisu_05.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\irisu_gos1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\font1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\irisu_05.wma
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Debug\Content\irisu_gos1.wma

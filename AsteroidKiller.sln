@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidKiller", "AsteroidKiller\AsteroidKiller\AsteroidKiller.csproj", "{F283A00D-3F95-49BE-B78F-CC9457A3A9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteroidKillerContent", "AsteroidKiller\Content\AsteroidKillerContent.contentproj", "{00E232F5-ECDB-4D36-ADC4-E7E89ECF75A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F283A00D-3F95-49BE-B78F-CC9457A3A9FA}.Debug|x86.ActiveCfg = Release|x86
+		{F283A00D-3F95-49BE-B78F-CC9457A3A9FA}.Debug|x86.Build.0 = Release|x86
+		{F283A00D-3F95-49BE-B78F-CC9457A3A9FA}.Release|x86.ActiveCfg = Release|x86
+		{F283A00D-3F95-49BE-B78F-CC9457A3A9FA}.Release|x86.Build.0 = Release|x86
+		{00E232F5-ECDB-4D36-ADC4-E7E89ECF75A1}.Debug|x86.ActiveCfg = Debug|x86
+		{00E232F5-ECDB-4D36-ADC4-E7E89ECF75A1}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

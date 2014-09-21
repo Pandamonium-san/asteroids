@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 2147210733;
+    Bank Last Revised High = 30397676;
+
+    Wave
+    {
+        Name = se_damage00;
+        File = se_damage00.wav;
+        Build Settings Last Modified Low = 2559301334;
+        Build Settings Last Modified High = 30397613;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 6614;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1681971712;
+            Last Modified High = 30345278;
+        }
+    }
+
+    Wave
+    {
+        Name = boom6;
+        File = boom6.wav;
+        Build Settings Last Modified Low = 2147210733;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 123972;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3512243134;
+            Last Modified High = 30298171;
+        }
+    }
+
+    Wave
+    {
+        Name = boom1;
+        File = boom1.wav;
+        Build Settings Last Modified Low = 2116528978;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 64806;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2908376792;
+            Last Modified High = 30298048;
+        }
+    }
+
+    Wave
+    {
+        Name = se_bonus;
+        File = se_bonus.wav;
+        Build Settings Last Modified Low = 2075486630;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 45208;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1681971712;
+            Last Modified High = 30345278;
+        }
+    }
+
+    Wave
+    {
+        Name = se_ch02;
+        File = se_ch02.wav;
+        Build Settings Last Modified Low = 2032834191;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 44160;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1681971712;
+            Last Modified High = 30345278;
+        }
+    }
+
+    Wave
+    {
+        Name = se_chargeup;
+        File = se_chargeup.wav;
+        Build Settings Last Modified Low = 1879385414;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 94192;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4091362560;
+            Last Modified High = 30021140;
+        }
+    }
+
+    Wave
+    {
+        Name = se_slash;
+        File = se_slash.wav;
+        Build Settings Last Modified Low = 1959880018;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 54738;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1681971712;
+            Last Modified High = 30345278;
+        }
+    }
+
+    Wave
+    {
+        Name = se_charge00;
+        File = se_charge00.wav;
+        Build Settings Last Modified Low = 1999142264;
+        Build Settings Last Modified High = 30397676;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 43116;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4091362560;
+            Last Modified High = 30021140;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

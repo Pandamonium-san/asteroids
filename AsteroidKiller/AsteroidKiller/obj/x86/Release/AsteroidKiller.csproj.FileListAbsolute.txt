@@ -1,0 +1,28 @@
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\asteroid.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\GameOver1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\Ship.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\explosion.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\Bullet.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\bg2.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\bg3.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\bg1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\player_explosion.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\powerups.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\irisu_05.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\irisu_gos1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\font1.xnb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\irisu_05.wma
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\irisu_gos1.wma
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\Audio\GameAudio.xgs
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\Audio\Wave Bank.xwb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\Content\Audio\Sound Bank.xsb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\AsteroidKiller.exe.manifest
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\AsteroidKiller.application
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\AsteroidKiller.exe
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\bin\x86\Release\AsteroidKiller.pdb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.exe.manifest
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.application
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.exe
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.pdb
+C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.csprojResolveAssemblyReference.cache
