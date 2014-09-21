@@ -116,7 +116,7 @@ namespace Asteroid
             piercingBullets = false;
 
             showPlayerInfo = true;
-            playerinfo = "WASD to move. Click to shoot.";
+            playerinfo = "WASD to move. Click to shoot. P to pause.";
 
             base.Initialize();
         }
@@ -208,11 +208,45 @@ namespace Asteroid
 
         protected override void Update(GameTime gameTime)
         {
+            KeyMouseReader.Update();
 
-            if (!gameOver && !paused)
+            if (!gameOverSound && gameOver)
             {
+                MediaPlayer.Stop();
+                MediaPlayer.IsRepeating = false;
+                MediaPlayer.Play(gameOver_sfx);
+                gameOverSound = true;
+            }
+            if (gameOver)
+            {
+                playerinfo = "Press enter to restart";
+                showPlayerInfo = true;
+                if (Keyboard.GetState().IsKeyDown(Keys.Enter))
+                    Initialize();
+            }
 
-                KeyMouseReader.Update();
+
+            if (KeyMouseReader.KeyPressed(Keys.P))
+            {
+                paused = !paused;
+            }
+
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                this.Exit();
+
+            if (showPlayerInfo)
+                playerinfoTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
+            if (playerinfoTime > 9)
+            {
+                showPlayerInfo = false;
+                playerinfoTime = 0;
+            }
+
+            audioEngine.Update();
+
+            if (gameOver || paused) return;
+
                 this.Window.Title = "AsteroidKiller       Score: " + playerScore.ToString();
                 player.Update();
                 bg1.Update();
@@ -380,26 +414,26 @@ namespace Asteroid
                     {
                         case 1:
                             playerLives += 1;
-                            DisplayPlayerInfo("             Life up!");
+                            DisplayPlayerInfo("                  Life up!");
                             soundBank.PlayCue("se_bonus");
                             break;
                         case 2:
                             shotRate = 14;
                             powerupTime = 0;
                             powerupActive = true;
-                            DisplayPlayerInfo("         Fire rate doubled!");
+                            DisplayPlayerInfo("            Fire rate doubled!");
                             soundBank.PlayCue("se_ch02");
                             break;
                         case 3:
                             foreach (Asteroid asteroid in asteroids)
                                 asteroid.destroyAsteroid = true;
-                            DisplayPlayerInfo("             KABOOM");
+                            DisplayPlayerInfo("                KABOOM");
                             soundBank.PlayCue("se_slash");
                             break;
                         case 4:
                             player.invulnerable = true;
                             playerInvulnerableCount = -7;
-                            DisplayPlayerInfo("         Invulnerability!");
+                            DisplayPlayerInfo("           Invulnerability!");
                             soundBank.PlayCue("se_chargeup");
                             break;
                         case 5:
@@ -407,7 +441,7 @@ namespace Asteroid
                             shotRate = 5;
                             powerupTime = 0;
                             powerupActive = true;
-                            DisplayPlayerInfo("     Asteroids are made of cheese!");
+                            DisplayPlayerInfo("         Asteroids are made of cheese!");
                             soundBank.PlayCue("se_charge00");
                             break;
                     }
@@ -424,47 +458,6 @@ namespace Asteroid
                     powerupTime = 0;
                 }
 
-                
-
-               
-
-            } /// End if(!gameover && !paused)
-
-            if (gameOver)
-            {
-                if (!gameOverSound)
-                {
-                    MediaPlayer.Stop();
-                    MediaPlayer.IsRepeating = false;
-                    MediaPlayer.Play(gameOver_sfx);
-                    gameOverSound = true;
-                }
-                playerinfo = "Press enter to restart";
-                showPlayerInfo = true;
-                if (Keyboard.GetState().IsKeyDown(Keys.Enter))
-                    Initialize();
-            }
-
-            if (KeyMouseReader.KeyPressed(Keys.P))
-            {
-                if (!paused)
-                    paused = true;
-                else
-                    paused = false;
-            }
-
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
-                    this.Exit();
-
-            if (showPlayerInfo)
-                playerinfoTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if (playerinfoTime > 5)
-            {
-                showPlayerInfo = false;
-                playerinfoTime = 0;
-            }
-
-            audioEngine.Update();
             base.Update(gameTime);
 
         }
@@ -498,13 +491,15 @@ namespace Asteroid
                 spriteBatch.DrawString(font1, "Lives " + playerLives.ToString(), new Vector2(Window.ClientBounds.Width - 80, Window.ClientBounds.Height - 28), Color.White, 0, Vector2.Zero, 1.0f, SpriteEffects.None, 0.5f);
                 
             if (showPlayerInfo)
-                spriteBatch.DrawString(font1, playerinfo, new Vector2(500, 0), Color.White, 0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.5f);
+                spriteBatch.DrawString(font1, playerinfo, new Vector2(450, 0), Color.White, 0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.5f);
 
             if (gameOver)
             {
                 spriteBatch.Draw(gameOver_texture, centerOfWindow, null, Color.Red, 0f, new Vector2(gameOver_texture.Width / 2, gameOver_texture.Height / 2), 1f, SpriteEffects.None, 0f);
             }
-
+            if (paused)
+                spriteBatch.DrawString(font1, "GAME PAUSED", new Vector2(Window.ClientBounds.Width/2-110, Window.ClientBounds.Height/2-30), Color.White, 0, Vector2.Zero, 1.5f, SpriteEffects.None, 0.5f);
+              
             spriteBatch.End();
 
             base.Draw(gameTime);

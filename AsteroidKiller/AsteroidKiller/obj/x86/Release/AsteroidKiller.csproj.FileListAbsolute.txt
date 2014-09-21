@@ -25,4 +25,3 @@ C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Rel
 C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.application
 C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.exe
 C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.pdb
-C:\Users\Henrik\Desktop\AsteroidKiller\AsteroidKiller\AsteroidKiller\obj\x86\Release\AsteroidKiller.csprojResolveAssemblyReference.cache
